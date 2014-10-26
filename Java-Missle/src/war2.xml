@@ -1,0 +1,21 @@
+<war>
+	<missileLaunchers>
+		<launcher  id="L101" isHidden="false">
+			<missile  id="M1" destination="Sderot" launchTime="2" flyTime="20" damage="1500"></missile>
+		</launcher>
+		<launcher id="L102" isHidden="true">
+		</launcher>
+	</missileLaunchers>
+	<missileDestructors>
+		<destructor  id="D201" type="Iron Dome">
+		</destructor>
+		<destructor id="D202" type="Iron Dome">		
+		</destructor>
+	</missileDestructors>
+	<missileLauncherDestructors>
+		<destructor id="P202" type="plane">
+		</destructor>
+		<destructor id="S202" type="ship">
+		</destructor>
+	</missileLauncherDestructors>
+</war>

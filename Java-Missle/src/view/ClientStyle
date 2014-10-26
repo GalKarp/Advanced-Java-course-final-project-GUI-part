@@ -1,0 +1,44 @@
+@CHARSET "windows-1255";
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: gray;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.tab {
+    -fx-text-fill: white;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#survivor-name {
+   -fx-font-size: 14px;
+   -fx-font-family: "Comic Sans MS";
+   -fx-font-weight: bold;
+   -fx-fill: #151515;
+}
+
+#survivor-background
+{
+	-fx-fill: #D8D8D8;
+}
+
+#tribe {
+	-fx-background-color:beige;
+}
+#mainPane {
+	-fx-background-color: #B2D1FF
+}
